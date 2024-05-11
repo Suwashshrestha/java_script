@@ -22,8 +22,4 @@ function save(){
         document.getElementById("count").textContent = 0
         count = 0
 }
-function reset(){
-    count = 0
-    document.getElementById("count").textContent = 0
-    document.getElementById("save-el").textContent = "Previous entries: "
-}
+
